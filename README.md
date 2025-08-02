@@ -14,7 +14,7 @@ EcoTrack is a web application designed to help individuals track and reduce thei
 - **Impact Visualization**: See your environmental impact in easy-to-understand metrics
 
 ## Screenshot
-![EcoTrack Screenshot](./assets/screenshot.png)
+![EcoTrack Screenshot](./assets/Screenshot 2025-08-02 210406.png)
 
 ## Technologies Used
 - HTML5, CSS3, JavaScript (ES6+)
