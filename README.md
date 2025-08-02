@@ -27,7 +27,10 @@ EcoTrack is a web application designed to help individuals track and reduce thei
 3. Start tracking your sustainable habits and carbon footprint
 
 ## Team Members
-- [Your Name] - Project Lead & Developer
+- Ananthakrishnan K V - Project Lead & Developer
+- Abhijith P - Developer
+- NAndhakumar K S - Developer
+- Alex Roy - UI/UX
 
 ## Future Enhancements
 - User accounts for saving progress
