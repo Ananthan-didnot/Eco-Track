@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrack - Your Sustainability Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3a644c2888.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-leaf"></i>
+            EcoTrack
+        </div>
+        <ul class="nav-links">
+            <li><a href="#calculator"><i class="fas fa-calculator"></i> Calculator</a></li>
+            <li><a href="#habits"><i class="fas fa-check-circle"></i> Habits</a></li>
+            <li><a href="#community"><i class="fas fa-users"></i> Community</a></li>
+            <li><a href="#resources"><i class="fas fa-book"></i> Resources</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="animate-text"><i class="fas fa-earth-americas"></i> Track Your Impact, Live Sustainably</h1>
+                <p class="animate-text delay-1">Join our community in making the world a greener place</p>
+                <div class="cta-group">
+                    <button class="cta-button animate-button delay-2">Get Started</button>
+                    <button class="cta-button secondary animate-button delay-3">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <h3>10K+</h3>
+                    <p>Community Members</p>
+                </div>
+                <div class="stat-card">
+                    <h3>500+</h3>
+                    <p>Local Actions</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1M+</h3>
+                    <p>Trees Planted</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-illustration">
+            <div class="earth-animation"></div>
+        </div>
+    </header>
+
+    <section id="calculator" class="section">
+        <h2>Carbon Footprint Calculator</h2>
+        <div class="calculator-container">
+            <div class="calculator-card">
+                <h3>Transportation</h3>
+                <div class="input-group">
+                    <label>Kilometers traveled per week</label>
+                    <input type="number" id="transportDistance">
+                </div>
+                <div class="transport-options">
+                    <label><input type="radio" name="transport" value="car"> Car</label>
+                    <label><input type="radio" name="transport" value="bus"> Bus</label>
+                    <label><input type="radio" name="transport" value="bike"> Bike</label>
+                </div>
+            </div>
+            <div class="calculator-card">
+                <h3>Energy Usage</h3>
+                <div class="input-group">
+                    <label>KWh used per month</label>
+                    <input type="number" id="energyUsage">
+                </div>
+            </div>
+            <button class="calculate-btn">Calculate Impact</button>
+            <div class="results" id="results"></div>
+        </div>
+    </section>
+
+    <section id="habits" class="section">
+        <h2>My Sustainable Habits</h2>
+        <div class="habits-container">
+            <div class="habit-card">
+                <i class="fas fa-recycle"></i>
+                <h3>Recycling</h3>
+                <div class="habit-progress">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                    <span>7/10 days</span>
+                </div>
+            </div>
+            <div class="habit-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Meat-free Days</h3>
+                <div class="habit-progress">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%"></div>
+                    </div>
+                    <span>3/7 days</span>
+                </div>
+            </div>
+            <div class="habit-card">
+                <i class="fas fa-bicycle"></i>
+                <h3>Active Transport</h3>
+                <div class="habit-progress">
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                    <span>4/5 days</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="community" class="section">
+        <h2>Community Actions</h2>
+        <div class="community-container">
+            <div class="action-card">
+                <div class="action-header">
+                    <h3>Local Clean-up Drive</h3>
+                    <span class="date">Tomorrow, 10 AM</span>
+                </div>
+                <p>Join us for a community clean-up event at the local park</p>
+                <button class="join-btn">Join Event</button>
+            </div>
+            <div class="action-card">
+                <div class="action-header">
+                    <h3>Zero Waste Workshop</h3>
+                    <span class="date">This Saturday</span>
+                </div>
+                <p>Learn how to reduce waste in your daily life</p>
+                <button class="join-btn">Register</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <h2>Eco Resources</h2>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <i class="fas fa-book"></i>
+                <h3>Reading Materials</h3>
+                <p>Learn more about sustainability and climate change</p>
+                <button class="resource-btn">Explore</button>
+            </div>
+            <div class="resource-card">
+                <i class="fas fa-video"></i>
+                <h3>Video Tutorials</h3>
+                <p>Watch expert talks and tutorials</p>
+                <button class="resource-btn">Watch Now</button>
+            </div>
+            <div class="resource-card">
+                <i class="fas fa-download"></i>
+                <h3>Downloadable Guides</h3>
+                <p>Free guides to sustainable living</p>
+                <button class="resource-btn">Download</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About EcoTrack</h4>
+                <p>Your companion in sustainable living</p>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
